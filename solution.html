@@ -1,0 +1,64 @@
+<!-- 
+    You are building a portfolio page:
+    1. Create a "container" div where all your content will reside in
+    2. Create a menu using an unordered list
+    3. The main content area contains your works. Start with placeholder content for one portfolio item: an image, a title, and some descriptive text. The layout should look roughly as follows:
+
+    ---------	TITLE
+    |		|	lorem ipsum dolor amit
+    |		|
+    ---------
+
+    4. Once you have successfully created one item, duplicate it. Pretend that you are displaying 4 items on this page. 
+
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="_css/solution.css" />
+    <script src="_js/jquery-1.10.2.min.js"></script>
+    <script src="_js/solution.js"></script>    
+</head>
+<body>
+
+	<div id="container">
+
+		<ul id="menu">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+		<a id="portfolio-nav-prev" href="#" class="disable">&#9756;</a>
+		<a id="portfolio-nav-next" href="#">&#9758;</a>
+
+		<div id="main">
+			<div class="item">
+				<img src="_images/img.jpg" alt="img" width="240" height="200" />
+				<h2><a href="#">Title 1</a></h2>
+				<p>Cras dictum. Maecenas ut turpis. In vitae erat ac orci dignissim eleifend. Nunc quis justo. Sed vel ipsum in purus tincidunt pharetra. Sed pulvinar, felis id consectetuer malesuada, enim nisl mattis elit, a facilisis tortor nibh quis leo. Sed augue lacus, pretium vitae, molestie eget, rhoncus quis, elit. Donec in augue.</p>
+			</div>
+			<div class="item">
+				<img src="_images/img.jpg" alt="img" width="240" height="200" />
+				<h2><a href="#">Title 2</a></h2>
+				<p>Donec placerat. Nullam nibh dolor, blandit sed, fermentum id, imperdiet sit amet, neque. Nam mollis ultrices justo. Sed tempor. Sed vitae tellus. Etiam sem arcu, eleifend sit amet, gravida eget, porta at, wisi. Nam non lacus vitae ipsum viverra pretium. Phasellus massa. Fusce magna sem, gravida in, feugiat ac.</p>
+			</div>
+			<div class="item">
+				<img src="_images/img.jpg" alt="img" width="240" height="200" />
+				<h2><a href="#">Title 3</a></h2>
+				<p>Pellentesque vel dui sed orci faucibus iaculis. Suspendisse dictum magna id purus tincidunt rutrum. Nulla congue. Vivamus sit amet lorem posuere dui vulputate ornare. Phasellus mattis sollicitudin ligula. Duis dignissim felis et urna. Integer adipiscing congue metus. Nam pede. Etiam non wisi. Sed accumsan dolor ac augue.</p>
+			</div>
+			<div class="item">
+				<img src="_images/img.jpg" alt="img" width="240" height="200" />
+				<h2><a href="#">Title 4</a></h2>
+				<p>Suspendisse vestibulum dignissim quam. Integer vel augue. Phasellus nulla purus, interdum ac, venenatis non, varius rutrum, leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis a eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Fusce magna mi, porttitor quis, convallis eget, sodales ac, urna. Phasellus luctus venenatis magna. Vivamus eget lacus.</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
